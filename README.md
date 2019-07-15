@@ -9,9 +9,8 @@ This repository serves as an excellent introduction to implementing machine lear
 5. Dimensionality Reduction
 6. Unsupervised Learning
 7. Recommendation Engine
-8. Reinforcement Learning
-9. Text Mining
-10. Time Series Analysis
+8. Text Mining
+9. Time Series Analysis
 
 
 # 1. Regression
@@ -35,10 +34,7 @@ This repository serves as an excellent introduction to implementing machine lear
 # 7. Recommendation Engine
 
 
-# 8. Reinforcement Learning
+# 8. Text Mining
 
 
-# 9. Text Mining
-
-
-# 10. Time Series Analysis
+# 9. Time Series Analysis
