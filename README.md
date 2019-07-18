@@ -9,9 +9,10 @@ This repository serves as an excellent introduction to implementing machine lear
 5. Supervised Learning
 6. Dimensionality Reduction
 7. Unsupervised Learning
-8. Recommendation Engine
-9. Text Mining
-10. Time Series Analysis
+8. Association Rules Mining and Recommendation Systems
+9. Recommendation Engine
+10. Text Mining
+11. Time Series Analysis
 
 # 1. Machine Learning - Introduction
 ### What is Machine Learning (ML)?
