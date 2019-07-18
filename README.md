@@ -313,6 +313,42 @@ Lift = (Confidence (Jam͢͢ – Bread)) / (Support (Jam))
 It says that the likelihood of a customer buying both jam and bread together is 5 times more than the chance of purchasing jam alone. If the Lift value is less than 1, it entails that the customers are unlikely to buy both the items together. Greater the value, the better is the combination.
 
 # 9. Recommendation Engine
+A recommendation engine filters the data using different algorithms and recommends the most relevant items to users. It first captures the past behaviour of a customer and based on that, recommends products which the users might be likely to buy. The analysis uses the user details like.
+* Gender,
+* Age,
+* Geographical location,
+* Online searches,
+* Previous purchase or items user interested.
+
+Before we learn deeper aspects of recommendation engines. Let’s first understand about the real life and online recommendation engines.
+What is the difference between Real life and online Recommendation Engine
+Before summarizing the difference between Real life Recommendation engine and online Recommendation Engine lets qucikly look at the individual examples.
+
+#### Real life Recommendation Engine:
+* Your friend as movie recommendation engine.
+      - We ask our friends recommend some good movies for the weekend. Most of the cases we enjoy the movies recommended by our friend.
+* Your family members or friends as dress Recommendation Engine.
+      - Selecting a dress from thousands of models is a little bit harder. That’s why, when we are going to buy a dress for our Birthday or any festival purpose we ask our family members or friends to select a good dress for us.
+
+#### Why should we use recommendation engines?
+There is one famous quote about customer’s relationship. The Summary of the quote will go like this ‘customers don’t know what they want until we show them’. If we succeed in showing something which customers may like business profit will sky rocket .
+So recommendation engines will help customers find information, products, and services they might not have thought of. Recommendation applications are helpful in a wide variety of industries and Business.
+
+##### Some of them we have seen before and some application listed below.
+* Travel
+* Financial service
+* Music/Online radio
+* TV and Videos
+* Online publications
+* Retail
+* And countless others….
+
+#### Different types of Recommendation Engines
+Recommendation engines are mainly 2 types and one hybrid type:
+1. User Based Filtering or Collaborative Filtering.
+2. Content-Based Filtering
+3. Hybrid Recommendation Systems
+
 
 
 # 10. Text Mining
