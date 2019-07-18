@@ -206,6 +206,8 @@ The K-Means algorithms aims to find and group in classes the data points that ha
 
 
 # 5. Supervised Learning
+### What is Supervised Learning?
+Supervised Learning is the one, where you can consider the learning is guided by a teacher. We have a dataset which acts as a teacher and its role is to train the model or the machine. Once the model gets trained it can start making a prediction or decision when new data is given to it.
 
 
 # 6. Dimensionality Reduction
