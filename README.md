@@ -276,10 +276,45 @@ In the unsupervised learning approach, the sample of a training dataset does not
 #### Example: 
 Fraud Detection is probably the most popular use-case of Unsupervised Learning. Utilizing past historical data on fraudulent claims, it is possible to isolate new claims based on its proximity to clusters that indicate fraudulent patterns.
 
-# 8. Recommendation Engine
+
+# 9. Association Rules Mining and Recommendation Systems
+**Association rule learning** is a rule-based machine learning method for discovering interesting relations between variables in large databases.
+
+### What is the Apriori Algorithm?
+
+Apriori algorithm, a classic algorithm, is useful in mining frequent itemsets and relevant association rules. Usually, you operate this algorithm on a database containing a large number of transactions. One such example is the items customers buy at a supermarket.
+It helps the customers buy their items with ease, and enhances the sales performance of the departmental store.
+This algorithm has utility in the field of healthcare as it can help in detecting adverse drug reactions (ADR) by producing association rules to indicate the combination of medications and patient characteristics that could lead to ADRs.
+
+#### Apriori Algorithm – An Odd Name
+It has got this odd name because it uses ‘prior’ knowledge of frequent itemset properties. The credit for introducing this algorithm goes to Rakesh Agrawal and Ramakrishnan Srikant in 1994. We shall now explore the apriori algorithm implementation in detail.
+Apriori algorithm – The Theory
+
+#### Three significant components comprise the apriori algorithm. They are as follows.
+* Support
+* Confidence
+* Lift
+
+#### Support
+Support is the default popularity of any item. You calculate the Support as a quotient of the division of the number of transactions containing that item by the total number of transactions. Hence, in our example,
+Support (Jam) = (Transactions involving jam) / (Total Transactions)
+                        = 200/2000 = 10%
+#### Confidence
+In our example, Confidence is the likelihood that customer bought both bread and jam. Dividing the number of transactions that include both bread and jam by the total number of transactions will give the Confidence figure.
+Confidence = (Transactions involving both bread and jam) / (Total Transactions involving jam)
+                    = 100/200 = 50%
+It implies that 50% of customers who bought jam bought bread as well.
+
+#### Lift
+According to our example, Lift is the increase in the ratio of the sale of bread when you sell jam. The mathematical formula of Lift is as follows.
+Lift = (Confidence (Jam͢͢ – Bread)) / (Support (Jam))
+      = 50 / 10 = 5
+It says that the likelihood of a customer buying both jam and bread together is 5 times more than the chance of purchasing jam alone. If the Lift value is less than 1, it entails that the customers are unlikely to buy both the items together. Greater the value, the better is the combination.
+
+# 9. Recommendation Engine
 
 
-# 9. Text Mining
+# 10. Text Mining
 
 
-# 10. Time Series Analysis
+# 11. Time Series Analysis
